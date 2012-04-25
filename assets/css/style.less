@@ -3,11 +3,16 @@
 @orange:#FF2707;
 @brown:#8C6238;
 @black:#1A1803;
-@cream:#F6FB94;
+//@cream:#F6FB94;
+@cream:#FBFDCE;
 
 * {
-	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
 	color:@black;
+}
+h1, h2, h3, h4, h5, h6, th {
+	font-family: 'Bree Serif', 'Times New Roman', serif;
+	color:@brown;
 }
 body {
 	background-color:@cream;
@@ -23,6 +28,8 @@ header {
 	}
 	h1 {
 		font-size:24px;
+		line-height:24px;
+		margin:17px 0 21px 0;
 		color:@brown;
 	}
 	nav {
@@ -91,8 +98,8 @@ footer {
 		.pages {
 			margin:20px 0 0 0;
 			article {
-				width:300px;
-				margin:10px 6px;
+				width:290px;
+				margin:10px 31px;
 				vertical-align:top;
 				display:inline-block;
 				a {
@@ -101,11 +108,8 @@ footer {
 		 			text-decoration:none;
 		 			padding:3px;
 				}
-				&:nth-child(3n-1) {
-					margin:10px 10px 10px 0px;
-				}
-				&:nth-child(3n+1) {
-					margin:10px 0 10px 10px;
+				&:nth-child(3n), &:nth-child(3n+1) {
+					margin:10px 0;
 				}
 			}
 		}
@@ -113,12 +117,17 @@ footer {
 	&.documentation {
 		.wrap > h1 {
 			font-size:40px;
+			color:@brown;
 		}
 		.content {
 			// basic typography
-			h1 {font-size:30px;}
-			h2 {font-size:25px;}
-			h3 {font-size:20px; color:red;}
+			h1 {font-size:30px; color:lighten(@brown, 8%);}
+			h2 {font-size:25px; color:lighten(@brown, 16%);}
+			h3 {font-size:20px; color:lighten(@brown, 24%);}
+			h4 {font-size:15px; color:lighten(@brown, 32%);}
+			h1, h2, h3, h4, h5, h6 {
+				margin:1.4em 0 0.6em 0;
+			}
 			p, a, li, td, th {
 				font-size:14px;
 				line-height:20px;
@@ -130,6 +139,20 @@ footer {
 			//tables
 			td, th {
 				padding:5px;
+				border:1px #CBCCB3 solid;
+			}
+			//quotes
+			blockquote {
+				font-style:italic;
+				border-left:3px #555 solid;
+				padding:5px 10px;
+				p {
+					font-size:16px;
+					color:lighten(@black, 20%);
+					line-height:16px;
+					padding:0;
+					margin:0;
+				}
 			}
 		}
 	}
