@@ -35,6 +35,11 @@ header {
 				text-decoration:none;
 				padding:10px;
 			}
+			&.active {
+				a {
+					text-decoration:underline;
+				}
+			}
 			&:hover {
 				background-color:@black;
 				a {
@@ -102,6 +107,29 @@ footer {
 				&:nth-child(3n+1) {
 					margin:10px 0 10px 10px;
 				}
+			}
+		}
+	}
+	&.documentation {
+		.wrap > h1 {
+			font-size:40px;
+		}
+		.content {
+			// basic typography
+			h1 {font-size:30px;}
+			h2 {font-size:25px;}
+			h3 {font-size:20px; color:red;}
+			p, a, li, td, th {
+				font-size:14px;
+				line-height:20px;
+			}
+			// lists
+			li {
+				margin-bottom:5px;
+			}
+			//tables
+			td, th {
+				padding:5px;
 			}
 		}
 	}
