@@ -123,6 +123,7 @@ The Arcana represent many things. Every Persona and Social Link is tied to a cer
 
 #Persona Fusion
 >Ah, this must be... the wild card.
+
 Persona Fusion can only be done at some type of waypoint where you aren’t being threatened. Persona Fusion is recommended for advanced players. To avoid slowing down regular game-play I would also recommend only Fusing between sessions, let the GM know beforehand though. For the purposes of Fusion calculation, treat the number attached to Arcana as if it was 1 higher (this is so that the Fool Arcana is not equal to 0).
 
 ##Fusing Personae
@@ -139,6 +140,7 @@ In general, Fusing more Personae is better than Fusing less. By using more than 
 
 #Shuffle Time
 >It seems we have a guest with an intriguing destiny...
+
 Shuffle Time is the primary way PCs will acquire new Personae. Shuffle Time is triggered at the end of every battle. For extra immersion, advice is included in this section on how to conduct Shuffle Time using actual tarot cards but they aren’t necessary.
 
 ##Personae
@@ -163,104 +165,179 @@ If the result of 2d6 is 12 the Attack/Skill automatically hits and its damage is
 If you use a Skill that an enemy is Weak to, it gains the Down Ailment and you can immediately get another Attack Action.
 ####All-Out Attack
 If all enemies are Down the Party gets an All-Out Attack. All PCs can move up to 30 feet towards enemies and make a Melee Attack simultaneously. This is not a turn.
-￼￼￼￼￼￼Attack Type
-￼Accuracy
-￼￼￼￼￼￼￼Damage
-￼￼￼Defence
-￼￼￼￼￼Melee Attack
-￼2d6 + STR
-￼￼￼￼￼[weapon] + STR
-￼￼￼2 + [armour] + AGI
-￼￼￼￼￼Ranged Attack
-￼￼￼￼2d6 + AGI
-￼￼￼￼￼￼[weapon] + STR
-￼￼￼￼￼￼2 + [armour] + AGI
-￼￼￼￼Physical Skill
-2d6 + STR
-￼￼[skill] + STR
-￼2 + [armour] + AGI
-￼￼￼￼￼Magic Skill
-￼￼￼￼2d6 + MAG
-￼￼￼￼￼￼[skill] + MAG
-￼￼￼￼￼￼2 + 2(MAG)
-￼￼￼￼Ailment Skill
-￼￼￼1d6 + LUCK
-￼￼￼[skill]
-￼￼￼￼2d6 + LUCK
-￼￼￼Damage Types
-Melee/Ranged Attack/Physical Skill: Physical Magic Skill: Fire, Ice, Wind, Electric or Almighty Ailment Skill: Light, Dark or an ailment
-Ailments
+
+<table>
+	<thead>
+		<tr>
+			<th>Attack Type</th>
+			<th>Accuracy</th>
+			<th>Damage</th>
+			<th>Defence</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Melee Attack</td>
+			<td>2d6 + STR</td>
+			<td>[weapon] + STR</td>
+			<td>2 + [armour] + AGI</td>
+		</tr>
+		<tr>
+			<td>Ranged Attack</td>
+			<td>2d6 + AGI</td>
+			<td>[weapon] + STR</td>
+			<td>2 + [armour] + AGI</td>
+		</tr>
+		<tr>
+			<td>Physical Skill</td>
+			<td>2d6 + STR</td>
+			<td>[skill] + STR</td>
+			<td>2 + [armour] + AGI</td>
+		</tr>
+		<tr>
+			<td>Magic Skill</td>
+			<td>2d6 + MAG</td>
+			<td>[skill] + MAG</td>
+			<td>2 + 2(MAG)</td>
+		</tr>
+		<tr>
+			<td>Ailment Skill</td>
+			<td>1d6 + LUCK</td>
+			<td>[skill]</td>
+			<td>2d6 + LUCK</td>
+		</tr>
+	</tbody>
+</table>
+
+##Damage Types
+- Melee/Ranged Attack/Physical Skill: Physical Magic Skill: Fire, Ice, Wind, Electric or Almighty 
+- Ailment Skill: Light, Dark or an ailment
+
+##Ailments
 You may only have one Ailment at a time and if you are given one when you already have one, the previous one is removed instantly (excluding Dead).
-Rage (2 turns)
+
+###Rage (2 turns)
 You can do nothing but Melee Attack the enemies nearest to you. If you aren’t within Melee Attack range you can only move towards the nearest enemy. Your Melee Damage is doubled and your Defence/Melee Accuracy is halved.
-Dizzy (1 turn)
+
+###Dizzy (1 turn)
 You cannot do anything during your next turn. You gain this Ailment when Down if an enemy Critically Hits you or an enemy hits you with a Skill you are Weak against. If you are hit by a normal attack while Down roll 1d6, if the result is 3 or below you gain this Ailment.
-Confused (2 turns)
+
+###Confused (2 turns)
 At the start of each turn roll 1d6. If the result is 3 or below you cannot do anything. If the result is 4 or above you may only attack.
-Enervation (2 turns)
+
+###Enervation (2 turns)
 All of your Accuracies are halved.
-Exhaustion (2 turns)
+
+###Exhaustion (2 turns)
 You lose 1 Spirit for every Action you perform. Damage received is multiplied by 1.5.
-Fear (2 turns)
+
+###Fear (2 turns)
 You must move as far as possible from whatever inflicted this ailment during your turn and cannot do anything else.
-Poisoned (until removed or end of encounter)
+
+###Poisoned (until removed or end of encounter)
 Health decreases by 2 at the start of your turn. If this would bring your Health to or below 0 the Poisoned ailment does nothing (but is still applied, so if your Health goes above 2 but the Poisoned ailment hasn’t been removed it will continue to do damage).
-Silence (2 turns)
+
+###Silence (2 turns)
 You cannot use Skills or Swap Persona.
-Dead (until removed or end of encounter)
+
+###Dead (until removed or end of encounter)
 You are Dead when your Health is 0 or less. You cannot do anything. At the end of battle you regain consciousness and return to 1 Health. The effects of the entire Party dying is up to GM discretion. Dead is not considered an ailment for the effects of Skills.
-Down (1 turn)
+
+###Down (1 turn)
 Your Agility is 0 for the purpose of Defence. You do not get an attack action.
-Weakness and Resistance
+
+##Weakness and Resistance
 Personae and enemies have weaknesses and resistances. These define the effect of them being hit by damage of certain types. The types are: Physical, Fire, Ice, Electric, Wind, Light, Dark and Almighty. Light and Dark cannot be absorbed. The effect only occurs if the damage would be applied (missed attacks don’t trigger the resistance or weakness). Personae and shadows cannot have a weakness or resistance to Almighty damage.
-Weak (wk)
+
+###Weak (wk)
 You are now Down.
 Special: If Light or Dark, your defence against that type is 1d6 + LUCK (not 2d6 + LUCK).
-Resist (rs)
+
+###Resist (rs)
 Damage is halved.
 Special: If Light or Dark, your defence against that type is 3d6 + LUCK (not 2d6 + LUCK).
-Null (nl)
+
+###Null (nl)
 No damage is received.
-Reflect (rf)
+
+###Reflect (rf)
 Damage is applied to user.
-Absorb (ab)
+
+###Absorb (ab)
 Damage is converted to healing.
-Support NPC: Analyzer
-“We are living our lives abound with so much information”
+
+#Support NPC: Analyzer
+>We are living our lives abound with so much information
+
 Analyzer Support NPCs are willing to tag along with the Party, although unable to actually fight in battle. Analyzers can give the Party tactical advice about their surroundings and the enemies they face. This NPC uses their own Persona to empower their senses but cannot gain new Personae and their Persona has no Skills/Combat Attributes.
-Analyze
+
+##Analyze
 During battle the Party can command the Analyzer to Analyze something. The Analysis is completed at the beginning of the round of combat. The Analyzer can be asked to Analyze the Party’s surroundings and enemies. For example, if you ask the Analyzer to Analyze stalactites on the ceiling of a cave they may point out they are fragile and could fall on the enemies if hit. Another example, Analyzing a wall may find a weak spot that can be broken through. As their Social Link Rank rises they attain higher powers of perception:
-Social Link Rank 3
+
+###Social Link Rank 3
 Treasure Search: If the Analyzer spends a turn in a Treasure Search they discern the locations of all valuables in the same area.
-Social Link Rank 6
+
+###Social Link Rank 6
 Enemy Search: If the Analyzer spends a turn in an Enemy Search they discern the locations of all Shadows in the same area.
-Social Link Rank 10
+
+###Social Link Rank 10
 Weakness Scan: When the Analyzer spends a turn Analyzing an enemy they discern one of its weaknesses or resistances (e.g. to discern two weaknesses/resistances the Analyzing must spend two turns).
-Support NPC: Restorer
-“You don’t recognize this leaf from the normal local plant life...”
+
+#Support NPC: Restorer
+>You don’t recognize this leaf from the normal local plant life...
+
 Restorer Support NPCs will go with the Party into the Shadow World but won’t accompany them any further, choosing to stay at a safe waypoint. Although they don’t directly assist in combat, they are very helpful when preparing/recovering from battle.
-Restore
+
+##Restore
 The Party may ask the Restorer to replenish their Spirit, for a cost. This is a boon because it allows you to restore Spirit if you run out of consumables but the price is quite hefty. As their Social Link Rank rises the price of restoration goes down:
-￼￼￼Social link Rank
-￼￼￼￼￼￼￼Price (Yen) per Spirit
-￼￼￼1
-￼￼150
-￼￼￼2
-￼￼￼￼￼￼140
-￼￼￼3
-￼￼￼￼130
-￼￼￼4
-￼￼120
-￼￼￼5
-￼￼￼￼￼￼110
-￼￼￼6
-￼￼100
-￼￼￼7
-￼￼￼￼￼￼90
-￼￼￼8
-￼￼80
-￼￼￼9
-￼￼￼￼￼￼70
-￼￼￼10
-￼￼￼￼50
-￼￼￼
+
+<table>
+	<thead>
+		<tr>
+			<th>Social link Rank</th>
+			<th>Price (Yen) per Spirit</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>150</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>140</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>130</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>120</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>110</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>100</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>90</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>80</td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>70</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>50</td>
+		</tr>
+	</tbody>
+</table>
