@@ -46,91 +46,122 @@ Each Persona has a Level and several Combat Attributes. Level affects the Person
 
 ##Persona Level
 Whenever a PC gains CXP, this same amount is also given to their currently equipped Persona. The first time a Persona Levels Up it must have 5 CXP. Every Level after this point requires 2 additional CXP. Extra CXP from Levelling Up carries over to the next Level (it is possible to Level Up multiple times from a single battle). Personae unlock skills at certain Levels. A Persona’s Combat Attributes rise after a certain number of Level Ups.
+
 - **3 Level Ups:** +1 Primary Combat Attribute
 - **6 Level Ups:** +1 Secondary Combat Attributes 
 - **8 Level Ups:** +1 All Combat Attributes
-Combat Attributes
+
+##Combat Attributes
 Personae have a set of Combat Attributes which modify their ability in battle. Here is an overview of what Combat Attributes effect (each of these is expanded upon in the Combat section):
-Strength (STR): Melee Damage/Accuracy, Physical Skill Damage/Accuracy Magic (MAG): Magic Damage, Magic Accuracy, Magic Defence Endurance (END): Damage Reduction
-Agility (AGI): Ranged Accuracy, Ranged Defence, Melee Defence
-Luck (LUCK): Ailment Accuracy/Defence
-Skills
+
+- **Strength (STR):** Melee Damage/Accuracy, Physical Skill Damage/Accuracy 
+- **Magic (MAG):** Magic Damage, Magic Accuracy, Magic Defence 
+- **Endurance (END):** Damage Reduction
+- **Agility (AGI):** Ranged Accuracy, Ranged Defence, Melee Defence
+- **Luck (LUCK):** Ailment Accuracy/Defence
+
+##Skills
 Personae have a set of Skills which they use to battle. Each Skill is an ability that can heal/deal damage and/or incur effects. A Persona cannot know more than 6 Skills at a time. If a new Skill is unlocked it cannot be used until another Skill is forgotten.
-Stock
+
+##Stock
 Each PC can keep 3 Personae in their Stock and exchange them freely with other PCs when out of battle. During battle you cannot exchange Personae with other PCs. At the start of battle you must choose a Persona to be equipped but during your turn you can swap Persona. You can only use the Skills and Combat Attributes of the currently equipped Persona.
-Social Link
-“These genuine bonds... shall be your eyes to see the truth.”
+
+#Social Link
+>These genuine bonds... shall be your eyes to see the truth.
+
 A Social Link is a relationship shared by the Party. Each Social Link has several Ranks representing how well you know that person and each Rank has its own rewards. Every member of the Party can assist in the development of a Social Link. Each PC has their own Social Link as well that operates in the same way as NPC Social Links. Each Social Link has its own Issue, an overarching subplot that must be “resolved” before reaching Rank 10.
-Arcana
+
+##Arcana
 Each Social Link is represented by an Arcana. The Arcana is whichever best represents the themes of the character and/or the Issue they face. A PC’s Original Persona’s Arcana is the same as their Social Link Arcana. Always get the GM to approve of your Arcana selection.
-Social Link Rank
+
+##Social Link Rank
 The maximum Social Link Rank is 10. A Social Link Rank goes up whenever the PC(s) and that character experience a serious leap in friendship. For every Rank a Social Link has, when you fuse Personae of that Arcana, you may add up to that Rank in CXP to that Persona. For every three Ranks a Social Link has, all Personae of that Arcana gain +1 to all Combat Attributes. PC Social Link Ranks improve their function in battle:
-Rank 1
+
+### Rank 1
 If an ally would die from a single-target attack/skill you may protect them, allowing them to ignore all damage from that attack and killing you instantly.
-Rank 3
+
+### Rank 3
 When a Shadow within Melee Attack range gains the Down condition you get a free Melee Attack against them.
-Rank 5
+
+### Rank 5
 When you have a 1 More! chance you may choose to remove the Down condition from an ally instead of attacking.
-Rank 7
+
+### Rank 7
 When you have a 1 More! chance you may choose to remove any single condition from an ally instead of attacking.
-Rank 9
+
+### Rank 9
 If you would die from an attack/skill you may ignore all damage from that attack. You can only do this once per battle. This cannot be used to survive protecting an ally using the Rank 1 ability.
-Rank 10
+
+### Rank 10
 You acquire a personalized Ultimate Persona similar to your Original Persona. It has an additional Immunity to an Element of your choice and it doesn’t have a Weakness. The Persona is designed by the GM and may not necessarily be awarded instantly, instead being given at a later Level.
-Arcana
-“Do you believe in fortune telling?”
+
+#Arcana
+>Do you believe in fortune telling?
 The Arcana represent many things. Every Persona and Social Link is tied to a certain Arcana. The Arcana are derived from the tarot deck. The 21 Arcana used in Persona Wildcard are:
-(0) Fool: Beginnings, spontaneity, faith, embracing folly.
-(1) Magician: Action, self-awareness, concentration, power.
-(2) Priestess: Inaction, subconscious, seeing potential, mystery.
-(3) Empress: Mothering, abundance, senses, nature.
-(4) Emperor: Fathering, structure, authority, regulation.
-(5) Hierophant: Education, belief, conformity, group membership. (6) Lovers: Relationships, sexuality, personal beliefs, personal morals. (7) Chariot: Victory, determination, assertion, self-control.
-(8) Strength: Strength, patience, compassion, gentle control.
-(9) Hermit: Introspection, searching, guidance, solitude.
-(10) Fortune: Destiny, opportunity, change, perspective.
-(11) Justice: Justice, responsibility, careful decision-making, cause and effect. (12) Hanged Man: Release, reversing, suspending, sacrifice.
-(13) Death: Ends, transition, frugality, eliminating excess, inevitability.
-(14) Temperance: Moderation, balance, well-being, synthesis.
-(15) Devil: Submission, materialism, ignorance, pessimism.
-(16) Tower: Sudden change, outburst, downturn, revelation.
-(17) Star: Optimism, inspiration, generosity, serenity.
-(18) Moon: Fear, illusion, imagination, disorientation.
-(19) Sun: Enlightenment, glory, vitality, self-assurance.
-(20) Judgement: Judgement, rebirth, calling, absolution.
-Persona Fusion
-“Ah, this must be... the wild card.”
+
+- (0) Fool: Beginnings, spontaneity, faith, embracing folly.
+- (1) Magician: Action, self-awareness, concentration, power.
+- (2) Priestess: Inaction, subconscious, seeing potential, mystery.
+- (3) Empress: Mothering, abundance, senses, nature.
+- (4) Emperor: Fathering, structure, authority, regulation.
+- (5) Hierophant: Education, belief, conformity, group membership. 
+- (6) Lovers: Relationships, sexuality, personal beliefs, personal morals. 
+- (7) Chariot: Victory, determination, assertion, self-control.
+- (8) Strength: Strength, patience, compassion, gentle control.
+- (9) Hermit: Introspection, searching, guidance, solitude.
+- (10) Fortune: Destiny, opportunity, change, perspective.
+- (11) Justice: Justice, responsibility, careful decision-making, cause and effect. 
+- (12) Hanged Man: Release, reversing, suspending, sacrifice.
+- (13) Death: Ends, transition, frugality, eliminating excess, inevitability.
+- (14) Temperance: Moderation, balance, well-being, synthesis.
+- (15) Devil: Submission, materialism, ignorance, pessimism.
+- (16) Tower: Sudden change, outburst, downturn, revelation.
+- (17) Star: Optimism, inspiration, generosity, serenity.
+- (18) Moon: Fear, illusion, imagination, disorientation.
+- (19) Sun: Enlightenment, glory, vitality, self-assurance.
+- (20) Judgement: Judgement, rebirth, calling, absolution.
+
+#Persona Fusion
+>Ah, this must be... the wild card.
 Persona Fusion can only be done at some type of waypoint where you aren’t being threatened. Persona Fusion is recommended for advanced players. To avoid slowing down regular game-play I would also recommend only Fusing between sessions, let the GM know beforehand though. For the purposes of Fusion calculation, treat the number attached to Arcana as if it was 1 higher (this is so that the Fool Arcana is not equal to 0).
-Fusing Personae
+
+##Fusing Personae
 Fusing Personae destroys them and creates a new Persona. The Personae that are destroyed are referred to as Material Personae. Material Personae can be contributed by anyone, so you aren’t limited to the three in your stock. Only one of the resulting Persona is created though so you must choose who is given it.
-Inheriting Skills
+
+##Inheriting Skills
 Each Persona has an Inheritance Skill. When a Persona is fused you may choose for it to know any of the Material Personae’s Inheritance Skills, regardless of whether or not the Material Personae actually have the Skill in its current list of known Skills.
-Result
+
+##Result
 Two things are important in Material Personae for determining the result: the Material Personae’s Level and Arcana. The Arcana of the resulting Persona is calculated by adding or taking the number attached to each Material Personae’s Arcana until you have a result equal to or greater than 1. If the result is higher than 22, minus it by 22 (so that 23 = 1, 24 =2 and so on). The resulting Persona’s Arcana is that which is associated with this number. Average the Levels of the Material Personae, the Persona of the result Arcana that is closest to this Level is the Persona created through Fusion. If the Level of the resulting Persona is higher than the PC’s Level it cannot be created until they reach that Level. For every number of Material Personae used higher than 2, increase the average Level by 5. Always round up.
-Fusing More or Less?
+
+##Fusing More or Less?
 In general, Fusing more Personae is better than Fusing less. By using more than two Material Personae you have more choice of Arcana because you can add and minus the Arcana numbers in more combinations, the Level of the Persona will be higher from the +5 bonuses and you have more choices of Inheritance Skills. However there is the danger of having too few Personae because although having one great Persona is a good thing it leaves you vulnerable to its weaknesses and you lack versatility.
-Shuffle Time
-“It seems we have a guest with an intriguing destiny...”
+
+#Shuffle Time
+>It seems we have a guest with an intriguing destiny...
 Shuffle Time is the primary way PCs will acquire new Personae. Shuffle Time is triggered at the end of every battle. For extra immersion, advice is included in this section on how to conduct Shuffle Time using actual tarot cards but they aren’t necessary.
-Personae
+
+##Personae
 Certain Personae cannot be acquired via Shuffle Time. Original and Ultimate Personae cannot be gained via Shuffle Time. The Personae available in the Shuffle are selected randomly within 10 Levels below the Party.
-Shuffle Time
+
+##Shuffle Time
 There are 1d6 cards placed on the table. Of these, 1d3 are Personae (represent them with their Arcana). Shuffle these cards where the players cannot see then spread them face down on the table and let them choose one card. If it is an Arcana card, the players win that Persona (they choose whose Stock it immediately enters). If it’s not, nothing happens. If you don’t have a tarot deck, number the Arcana and empty cards and roll 1d6 to determine the result (reroll if the number generated is higher than the number of cards).
-Combat
-Rounds, Turns and Initiative
+
+##Combat
+###Rounds, Turns and Initiative
 During combat, time is measured in Rounds and Turns. A Round ends when everyone in the battle has had their turn. During a turn you get two Actions: a Move Action and an Attack Action. You may swap your Attack Action for a Move Action but not vice versa. The order of turns is determine via an Initiative roll (2d6 + Agility). Whoever has the highest Initiative has their turn first in each Round.
-Move Action
+####Move Action
 You may use a Move Action to: move up to 30 feet, swap Persona, use a consumable, remove the Down Ailment from yourself, interact with the environment (e.g. pulling a lever). Swapping Persona lets you change your currently equipped Persona to any in your Stock. When swapping you lose any buffs/debuffs and Ailments.
-Attack Action
+####Attack Action
 You may use an Attack Action to: Melee Attack, use a Skill, Defend. A Melee Attack can only be done within 5 feet of the target. Defending gives a +5 bonus to Defence, Magic Defence, Ranged Defence and a +2 bonus to Damage Reduction. There are three important parts of any type of attack: Accuracy, Damage and Defence. How each is calculated depends on the type of attack:
 For an Attack/Skill to hit, its Accuracy must be equal to or above the enemy’s Defence. If the Attack/Skill is successful calculate Damage (including Damage Reduction).
-Damage Reduction
+####Damage Reduction
 Damage from Attacks/Skills is reduced by your Endurance.
-Critical Hit
+####Critical Hit
 If the result of 2d6 is 12 the Attack/Skill automatically hits and its damage is doubled (before Damage Reduction).
-1 More!
+####1 More!
 If you use a Skill that an enemy is Weak to, it gains the Down Ailment and you can immediately get another Attack Action.
-All-Out Attack
+####All-Out Attack
 If all enemies are Down the Party gets an All-Out Attack. All PCs can move up to 30 feet towards enemies and make a Melee Attack simultaneously. This is not a turn.
 ￼￼￼￼￼￼Attack Type
 ￼Accuracy
